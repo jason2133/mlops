@@ -1,5 +1,10 @@
 # MLOps
 ## Our Scheme
+![flow](/img/flow.png)
+<p align="center">
+  Fig. 1 Overview of the proposed scheme
+</p>
+
 ### Feature Engineering
 - In the original dataset, there are 6 variables -  Acceleration (X, Y, Z axis in meters per second squared (m/s2)) and Rotation (X, Y, Z axis in degrees per second (°/s)).
 - Beyond the existing variables, I have added some features that can be calculated by using existing variables. 
