@@ -1,4 +1,29 @@
 # MLOps
+## Our Scheme
+### Feature Engineering
+- In the original dataset, there are 6 variables -  Acceleration (X, Y, Z axis in meters per second squared (m/s2)) and Rotation (X, Y, Z axis in degrees per second (°/s)).
+- Beyond the existing variables, I have added some features that can be calculated by using existing variables. 
+
+1. Acceleration Magnitude
+- $\text{AccMagnitude} = \sqrt{\text{AccX}^2 + \text{AccY}^2 + \text{AccZ}^2}$
+- The overall magnitude of 3-axis acceleration
+
+2. Rotation Magnitude
+- $\text{RotMagnitude} = \sqrt{\text{RotX}^2 + \text{RotY}^2 + \text{RotZ}^2}$
+- The overall magnitude of 3-axis rotational velocity
+
+3. Jerk
+- $\text{JerkX} = \frac{d(\text{AccX})}{dt}$
+- $\text{JerkY} = \frac{d(\text{AccY})}{dt}$
+- $\text{JerkZ} = \frac{d(\text{AccZ})}{dt}$
+- $\text{JerkMagnitude} = \sqrt{\text{JerkX}^2 + \text{JerkY}^2 + \text{JerkZ}^2}$
+- The rate of change of acceleration over time
+- Sudden changes in acceleration can indicate aggressive driving
+
+### Hyperparameter Tuning
+- Using [Optuna](https://optuna.org/) to optimize hyperparameters of the predictive model
+
+### MLOps
 
 ## Experiment
 ### Dataset
