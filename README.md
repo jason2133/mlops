@@ -4,6 +4,7 @@
 ### Dataset
 - [Driving Behavior Dataset](https://www.kaggle.com/datasets/outofskills/driving-behavior)
 - Dataset Paper: I. Cojocaru and P. Popescu (2022). [Building a Driving Behaviour Dataset](https://rochi.utcluj.ro/articole/10/RoCHI2022-Cojocaru-I-1.pdf). Proceedings of RoCHI 2022.
+- I have used Normal and Aggressive Class for this dataset, so the experiment in this repository is a binary classification task.
 
 ### Model Performance Comparison
 <table>
