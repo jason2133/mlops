@@ -1,5 +1,5 @@
 # MLOps
-## Our Scheme
+## Driving Behavior Prediction using MLOPs
 ![flow](/img/flow.png)
 <p align="center">
   Fig. 1 Overview of the proposed scheme
