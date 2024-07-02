@@ -1,5 +1,121 @@
 # MLOps
 
-## Certificates of Related Courses
+## Experiment
+### Dataset
+- [Driving Behavior Dataset](https://www.kaggle.com/datasets/outofskills/driving-behavior)
+- I. Cojocaru and P. Popescu (2022). [Building a Driving Behaviour Dataset](https://rochi.utcluj.ro/articole/10/RoCHI2022-Cojocaru-I-1.pdf). Proceedings of RoCHI 2022.
+- I. Cojocaru et al. (2022). [Driver Behaviour Analysis based on Deep Learning Algorithms](https://rochi.utcluj.ro/articole/10/RoCHI2022-Cojocaru-I-2.pdf). Proceddings of RoCHI 2022.
+
+### Model Performance Comparison
+<table>
+  <tr>
+    <th rowspan="2">Model</th>
+    <th colspan="4">w/o Feature Engineering (Original Data)</th>
+    <th colspan="4">w/ Feature Engineering (Our Scheme)</th>
+  </tr>
+  <tr>
+    <th>Precision</th>
+    <th>Recall</th>
+    <th>F1 Score</th>
+    <th>Accuracy</th>
+    <th>Precision</th>
+    <th>Recall</th>
+    <th>F1 Score</th>
+    <th>Accuracy</th>
+  </tr>
+  <tr>
+    <th>Logistic Regression</th>
+    <td>0.5602</td>
+    <td>0.5572</td>
+    <td>0.5557</td>
+    <td>0.5691</td>
+    <td>0.5930</td>
+    <td>0.5901</td>
+    <td>0.5900</td>
+    <td>0.5994</td>
+  </tr>
+  <tr>
+    <th>MLP Classifier</th>
+    <td>0.5915</td>
+    <td>0.5878</td>
+    <td>0.5874</td>
+    <td>0.5983</td>
+    <td>0.5986</td>
+    <td>0.5989</td>
+    <td>0.5987</td>
+    <td>0.6022</td>
+  </tr>
+  <tr>
+    <th>K-Neighbors Classifier</th>
+    <td>0.5549</td>
+    <td>0.5546</td>
+    <td>0.5547</td>
+    <td>0.5602</td>
+    <td>0.5700</td>
+    <td>0.5680</td>
+    <td>0.5677</td>
+    <td>0.5773</td>
+  </tr>
+  <tr>
+    <th>Random Forest</th>
+    <td>0.5520</td>
+    <td>0.5523</td>
+    <td>0.5520</td>
+    <td>0.5552</td>
+    <td>0.5671</td>
+    <td>0.5675</td>
+    <td>0.5671</td>
+    <td>0.5702</td>
+  </tr>
+  <tr>
+    <th>Decision Tree</th>
+    <td>0.5376</td>
+    <td>0.5380</td>
+    <td>0.5361</td>
+    <td>0.5370</td>
+    <td>0.5398</td>
+    <td>0.5400</td>
+    <td>0.5396</td>
+    <td>0.5425</td>
+  </tr>
+  <tr>
+    <th>XGBoost</th>
+    <td>0.5421</td>
+    <td>0.5423</td>
+    <td>0.5420</td>
+    <td>0.5453</td>
+    <td>0.5787</td>
+    <td>0.5794</td>
+    <td>0.5785</td>
+    <td>0.5807</td>
+  </tr>
+  <tr>
+    <th>CatBoost</th>
+    <td>0.5836</td>
+    <td>0.5808</td>
+    <td>0.5805</td>
+    <td>0.5906</td>
+    <td>0.5946</td>
+    <td>0.5941</td>
+    <td>0.5942</td>
+    <td>0.5994</td>
+  </tr>
+  <tr>
+    <th>LightGBM</th>
+    <td>0.5622</td>
+    <td>0.5621</td>
+    <td>0.5621</td>
+    <td>0.5669</td>
+    <td><b>0.5989</b></td>
+    <td><b>0.5991</b></td>
+    <td><b>0.5990</b></td>
+    <td><b>0.6028</b></td>
+  </tr>
+</table>
+
+
+## MLOps
+### Certificates of Related Courses
 - [Coursera - Structuring Machine Learning Projects (February 02, 2022)](https://www.coursera.org/account/accomplishments/certificate/VV3K9H8C6TFK)
 - [Coursera -  Introduction to Machine Learning in Production (September 21, 2021)](https://www.coursera.org/account/accomplishments/certificate/26DXRJR5KVZR)
+
