@@ -3,8 +3,7 @@
 ## Experiment
 ### Dataset
 - [Driving Behavior Dataset](https://www.kaggle.com/datasets/outofskills/driving-behavior)
-- I. Cojocaru and P. Popescu (2022). [Building a Driving Behaviour Dataset](https://rochi.utcluj.ro/articole/10/RoCHI2022-Cojocaru-I-1.pdf). Proceedings of RoCHI 2022.
-- I. Cojocaru et al. (2022). [Driver Behaviour Analysis based on Deep Learning Algorithms](https://rochi.utcluj.ro/articole/10/RoCHI2022-Cojocaru-I-2.pdf). Proceddings of RoCHI 2022.
+- Dataset Paper: I. Cojocaru and P. Popescu (2022). [Building a Driving Behaviour Dataset](https://rochi.utcluj.ro/articole/10/RoCHI2022-Cojocaru-I-1.pdf). Proceedings of RoCHI 2022.
 
 ### Model Performance Comparison
 <table>
