@@ -1,11 +1,15 @@
-# MLOps
-## Driving Behavior Prediction using MLOPs
+# Driving Behavior Prediction using MLOPs
 ![flow](/img/flow.png)
 <p align="center">
   Fig. 1 Overview of the proposed scheme
 </p>
 
-### Feature Engineering
+## Dataset
+- [Driving Behavior Dataset](https://www.kaggle.com/datasets/outofskills/driving-behavior)
+- Dataset Paper: I. Cojocaru and P. Popescu (2022). [Building a Driving Behaviour Dataset](https://rochi.utcluj.ro/articole/10/RoCHI2022-Cojocaru-I-1.pdf). Proceedings of RoCHI 2022.
+- I have used Normal and Aggressive Class for this dataset, so the experiment in this repository is a binary classification task.
+
+## Feature Engineering
 - In the original dataset, there are 6 variables -  Acceleration (X, Y, Z axis in meters per second squared (m/s2)) and Rotation (X, Y, Z axis in degrees per second (°/s)).
 - Beyond the existing variables, I have added some features that can be calculated by using existing variables. 
 
@@ -25,18 +29,12 @@
 - The rate of change of acceleration over time
 - Sudden changes in acceleration can indicate aggressive driving
 
-### Hyperparameter Tuning
+## Hyperparameter Tuning
 - Using [Optuna](https://optuna.org/) to optimize hyperparameters of the predictive model
 
-### MLOps
+## MLOps
 
-## Experiment
-### Dataset
-- [Driving Behavior Dataset](https://www.kaggle.com/datasets/outofskills/driving-behavior)
-- Dataset Paper: I. Cojocaru and P. Popescu (2022). [Building a Driving Behaviour Dataset](https://rochi.utcluj.ro/articole/10/RoCHI2022-Cojocaru-I-1.pdf). Proceedings of RoCHI 2022.
-- I have used Normal and Aggressive Class for this dataset, so the experiment in this repository is a binary classification task.
-
-### Model Performance Comparison
+## Experiment Result
 <table>
   <tr>
     <th rowspan="2">Model</th>
@@ -144,8 +142,7 @@
 </table>
 
 
-## MLOps
-### Certificates of Related Courses
+## My Certificates of Related MLOps Courses
 - [Coursera - Structuring Machine Learning Projects (February 02, 2022)](https://www.coursera.org/account/accomplishments/certificate/VV3K9H8C6TFK)
 - [Coursera -  Introduction to Machine Learning in Production (September 21, 2021)](https://www.coursera.org/account/accomplishments/certificate/26DXRJR5KVZR)
 
