@@ -222,7 +222,16 @@
 </p>
 <br/>
 
+- In tabular data analysis, deep learning is not all you need. Tree-based model still outperforms deep learning model. We can see that LightGBM, one of the best tree-based models, is showing the best performance among the predictive models.
+- We can also consider other techniques to improve the performance of the predictive models, such as data augmentation (e.g., CTGAN and TVAE) and changing the loss function (e.g., focal loss and class-balanced loss). However, since we have focused on MLOps, we did not consider these techniques. We will address methods to solve the data imbalance problem soon.
+
 ## My Certificates of Related MLOps Courses
 - [Coursera - Structuring Machine Learning Projects (February 02, 2022)](https://www.coursera.org/account/accomplishments/certificate/VV3K9H8C6TFK)
 - [Coursera -  Introduction to Machine Learning in Production (September 21, 2021)](https://www.coursera.org/account/accomplishments/certificate/26DXRJR5KVZR)
+
+## References
+- [1] I. Cojocaru and P. Popescu (2022). [Building a Driving Behaviour Dataset](https://rochi.utcluj.ro/articole/10/RoCHI2022-Cojocaru-I-1.pdf). Proceedings of RoCHI 2022. 
+- [2] R. Shwartz-Ziv and A. Armon (2022). [Tabular data: Deep learning is not all you need](https://www.sciencedirect.com/science/article/pii/S1566253521002360). Information Fusion, vol. 81, pp. 84-90.
+- [3] L. Grinstajn et al. (2022). [Why do tree-based models still outperform deep learning on tabular data?](https://proceedings.neurips.cc/paper_files/paper/2022/file/0378c7692da36807bdec87ab043cdadc-Supplemental-Datasets_and_Benchmarks.pdf). 36th Conference on Neural Information Processing Systems (NeurIPS 2022) Track on Datasets and Benchmarks.
+- [4] D. Kreuzberger et al. (2023). [Machine Learning Operations (MLOps): Overview, Definition, and Architecture](https://arxiv.org/abs/2205.02302). IEEE Access, vol. 11, pp. 31866-31879.
 
