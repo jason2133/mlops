@@ -1,11 +1,11 @@
 # Driving Behavior Prediction using MLOps
-![flow](/img/flow.png)
+![flow](/image/flow.png)
 <p align="center">
   Fig. 1 Overview of the proposed scheme
 </p>
 <br/>
 
-![Webpage](/img/webpage.PNG)
+![Webpage](/image/webpage.PNG)
 <p align="center">
   Fig. 2 View of the Webpage
 </p>
@@ -21,8 +21,8 @@
     <td><p align="center"><strong>Test Dataset</strong></p></td>
   </tr>
   <tr>
-    <td><img src="/img/train_data_graph.png" width="400" height="300"></td>
-    <td><img src="/img/test_data_graph.png" width="400" height="300"></td>
+    <td><img src="/image/train_data_graph.png" width="400" height="300"></td>
+    <td><img src="/image/test_data_graph.png" width="400" height="300"></td>
   </tr>
 </table>
 <p align="center">
@@ -210,13 +210,13 @@
 </p>
 <br/>
 
-![Webpage](/img/the_change_in_driving_behavior_over_time_upper_50.png)
+![Webpage](/image/the_change_in_driving_behavior_over_time_upper_50.png)
 <p align="center">
   Fig. 3 The change in driving behavior over time (Upper 50 data)
 </p>
 <br/>
 
-![Webpage](/img/prediction_distribution.png)
+![Webpage](/image/prediction_distribution.png)
 <p align="center">
   Fig. 4 Distribution of prediction values
 </p>
