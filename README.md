@@ -26,7 +26,7 @@
   </tr>
 </table>
 <p align="center">
-  Table. 1 Distrubtion of train dataset and test dataset
+  Table 1. Distrubtion of train dataset and test dataset
 </p>
 <br/>
 
@@ -206,7 +206,7 @@
   </tr>
 </table>
 <p align="center">
-  Table. 2 Comparison of the performance of forecasting models
+  Table 2. Comparison of the performance of forecasting models
 </p>
 <br/>
 
