@@ -8,6 +8,17 @@
 - [Driving Behavior Dataset](https://www.kaggle.com/datasets/outofskills/driving-behavior)
 - Dataset Paper: I. Cojocaru and P. Popescu (2022). [Building a Driving Behaviour Dataset](https://rochi.utcluj.ro/articole/10/RoCHI2022-Cojocaru-I-1.pdf). Proceedings of RoCHI 2022.
 - I have used Normal and Aggressive Class for this dataset, so the experiment in this repository is a binary classification task.
+- Below is the distribution of train dataset and test dataset.
+<table>
+  <tr>
+    <td><p align="center"><strong>Train Dataset</strong></p></td>
+    <td><p align="center"><strong>Test Dataset</strong></p></td>
+  </tr>
+  <tr>
+    <td><img src="/img/train_data_graph.png" width="400" height="300"></td>
+    <td><img src="/img/test_data_graph.png" width="400" height="300"></td>
+  </tr>
+</table>
 
 ## Feature Engineering
 - In the original dataset, there are 6 variables -  Acceleration (X, Y, Z axis in meters per second squared (m/s2)) and Rotation (X, Y, Z axis in degrees per second (°/s)).
