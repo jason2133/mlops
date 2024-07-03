@@ -34,7 +34,7 @@
 
 ## MLOps
 
-## Experiment Result
+## Experimental Result
 <table>
   <tr>
     <th rowspan="2">Model</th>
@@ -85,6 +85,17 @@
     <td>0.5773</td>
   </tr>
   <tr>
+    <th>SGD Classifier</th>
+    <td>0.5503</td>
+    <td>0.5483</td>
+    <td>0.5472</td>
+    <td>0.5591</td>
+    <td>0.5926</td>
+    <td>0.5813</td>
+    <td>0.5761</td>
+    <td>0.5989</td>
+  </tr>
+  <tr>
     <th>Random Forest</th>
     <td>0.5520</td>
     <td>0.5523</td>
@@ -105,6 +116,39 @@
     <td>0.5400</td>
     <td>0.5396</td>
     <td>0.5425</td>
+  </tr>
+  <tr>
+    <th>Gaussan NB</th>
+    <td>0.5893</td>
+    <td>0.5767</td>
+    <td>0.5699</td>
+    <td>0.5956</td>
+    <td>0.5949</td>
+    <td>0.5845</td>
+    <td>0.5882</td>
+    <td>0.6011</td>
+  </tr
+  <tr>
+    <th>AdaBoost</th>
+    <td>0.5848</td>
+    <td>0.5798</td>
+    <td>0.5784</td>
+    <td>0.5923</td>
+    <td>0.5885</td>
+    <td>0.5869</td>
+    <td>0.5871</td>
+    <td>0.5945</td>
+  </tr>
+  <tr>
+    <th>Gradient Boosting</th>
+    <td>0.5838</td>
+    <td>0.5799</td>
+    <td>0.5790</td>
+    <td>0.5912</td>
+    <td>0.5861</td>
+    <td>0.5856</td>
+    <td>0.5858</td>
+    <td>0.5912</td>
   </tr>
   <tr>
     <th>XGBoost</th>
