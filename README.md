@@ -25,6 +25,10 @@
     <td><img src="/img/test_data_graph.png" width="400" height="300"></td>
   </tr>
 </table>
+<p align="center">
+  Table. 1 Distrubtion of train dataset and test dataset
+</p>
+<br/>
 
 ## Feature Engineering
 - In the original dataset, there are 6 variables -  Acceleration (X, Y, Z axis in meters per second squared (m/s2)) and Rotation (X, Y, Z axis in degrees per second (°/s)).
@@ -201,7 +205,22 @@
     <td><b>0.6028</b></td>
   </tr>
 </table>
+<p align="center">
+  Table. 2 Comparison of the performance of forecasting models
+</p>
+<br/>
 
+![Webpage](/img/the_change_in_driving_behavior_over_time_upper_50.png)
+<p align="center">
+  Fig. 3 The change in driving behavior over time (Upper 50 data)
+</p>
+<br/>
+
+![Webpage](/img/prediction_distribution.png)
+<p align="center">
+  Fig. 4 Distribution of prediction values
+</p>
+<br/>
 
 ## My Certificates of Related MLOps Courses
 - [Coursera - Structuring Machine Learning Projects (February 02, 2022)](https://www.coursera.org/account/accomplishments/certificate/VV3K9H8C6TFK)
