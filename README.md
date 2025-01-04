@@ -95,6 +95,17 @@
     <td>0.7105</td>
     <td>0.7111</td>
   </tr>
+  <tr>
+    <th>Transformer</th>
+    <td>0.7039</td>
+    <td>0.7046</td>
+    <td>0.7000</td>
+    <td>0.7000</td>
+    <td><b>0.7407</b></td>
+    <td><b>0.7330</b></td>
+    <td><b>0.7214</b></td>
+    <td><b>0.7222</b></td>
+  </tr>
 </table>
 <p align="center">
   Table 2. Comparison of the performance of forecasting models - a window of instances classification
