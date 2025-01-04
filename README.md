@@ -56,6 +56,63 @@
 ## MLOps
 
 ## Experimental Result
+### Results for a window of instances classification
+<table>
+  <tr>
+    <th rowspan="2">Model</th>
+    <th colspan="4">w/o Feature Engineering (Original Data)</th>
+    <th colspan="4">w/ Feature Engineering (Our Scheme)</th>
+  </tr>
+  <tr>
+    <th>Precision</th>
+    <th>Recall</th>
+    <th>F1 Score</th>
+    <th>Accuracy</th>
+    <th>Precision</th>
+    <th>Recall</th>
+    <th>F1 Score</th>
+    <th>Accuracy</th>
+  </tr>
+  <tr>
+    <th>LSTM</th>
+    <td>0.7248</td>
+    <td>0.7130</td>
+    <td>0.7143</td>
+    <td>0.7222</td>
+    <td>0.7957</td>
+    <td>0.7802</td>
+    <td>0.7829</td>
+    <td>0.7889</td>
+  </tr>
+  <tr>
+    <th>CNN-LSTM</th>
+    <td>0.7536</td>
+    <td>0.6767</td>
+    <td>0.6652</td>
+    <td>0.7000</td>
+    <td>0.7333</td>
+    <td>0.7091</td>
+    <td>0.7093</td>
+    <td>0.7222</td>
+  </tr>
+  <tr>
+    <th>ConvLSTM</th>
+    <td>0.7091</td>
+    <td>0.7003</td>
+    <td>0.6875</td>
+    <td>0.6889</td>
+    <td>0.7111</td>
+    <td>0.7128</td>
+    <td>0.7105</td>
+    <td>0.7111</td>
+  </tr>
+</table>
+<p align="center">
+  Table 2. Comparison of the performance of forecasting models - a window of instances classification
+</p>
+<br/>
+
+### Results for one instance classification
 <table>
   <tr>
     <th rowspan="2">Model</th>
@@ -206,7 +263,7 @@
   </tr>
 </table>
 <p align="center">
-  Table 2. Comparison of the performance of forecasting models
+  Table 3. Comparison of the performance of forecasting models - one instance classification
 </p>
 <br/>
 
@@ -222,7 +279,6 @@
 </p>
 <br/>
 
-- In tabular data analysis, deep learning is not all you need. Tree-based model still outperforms deep learning model. We can see that LightGBM, one of the best tree-based models, is showing the best performance among the predictive models.
 - We can also consider other techniques to improve the performance of the predictive models, such as data augmentation (e.g., CTGAN and TVAE) and changing the loss function (e.g., focal loss and class-balanced loss). However, since we have focused on MLOps, we did not consider these techniques. We will address methods to solve the data imbalance problem soon.
 
 ## My Certificates of Related MLOps Courses
