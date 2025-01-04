@@ -74,17 +74,6 @@
     <th>Accuracy</th>
   </tr>
   <tr>
-    <th>LSTM</th>
-    <td>0.7248</td>
-    <td>0.7130</td>
-    <td>0.7143</td>
-    <td>0.7222</td>
-    <td>0.7957</td>
-    <td>0.7802</td>
-    <td>0.7829</td>
-    <td>0.7889</td>
-  </tr>
-  <tr>
     <th>CNN-LSTM</th>
     <td>0.7536</td>
     <td>0.6767</td>
